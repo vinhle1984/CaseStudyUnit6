@@ -195,6 +195,32 @@ ggplot(mergeData,
 
 ![](CaseStudy6_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
 
+##### Taking the log of GDP to get a better view of plot
+
+
+```r
+ggplot(mergeData,
+    aes(x=log(GDP),y=Income.Group,color=factor(Income.Group))) +
+    geom_point() +
+    stat_smooth(se=F) +
+    coord_flip() +
+    theme(legend.position="none") +
+      xlab("LogGDP in Million US$") +
+      ylab("Income Groups") +
+    labs(title="GDP by Income Group")
+```
+
+```
+## Warning: Removed 32 rows containing non-finite values (stat_smooth).
+```
+
+```
+## Warning: Removed 32 rows containing missing values (geom_point).
+```
+
+![](CaseStudy6_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
+
+
 ###Question 5: Cut the GDP ranking into 5 separate quantile groups. Make a table versus Income.Group. How many countries are Lower middle income but among the 38 nations with highest GDP?
 
 ```r
@@ -227,6 +253,6 @@ table(Q$Income.Group, Q$Income.Level)
 
 
 #CONCLUSION
-###Tidying the two datasets GDP and Edstat helped answer the questions above. There are 7 out of 38 countries that have the highest GDP with lower middle income. 
+###Tidying the two datasets GDP and Edstat helped answer the questions above. There are 7 out of 38 countries that have the highest GDP with lower middle income. It shows that even though the countries with lower middle income still have the highest GDP ranking. Also the average ranking of OECD is 110.066 and the average ranking of nonOECD is 93.739.
 
 
