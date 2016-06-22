@@ -52,3 +52,7 @@ loaded via a namespace (and not attached):
 ###Graphs:
   
     unamed-chunk-11-1.png
+    unamed-chunk-11-2.png
+    
+#Conclusion
+Tidying the two datasets GDP and Edstat helped answer the questions above. There are 7 out of 38 countries that have the highest GDP with lower middle income. It shows that even though the countries with lower middle income still have the highest GDP ranking. Also the average ranking of OECD is 110.066 and the average ranking of nonOECD is 93.739.
