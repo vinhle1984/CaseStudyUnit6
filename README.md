@@ -8,20 +8,20 @@ Unit 6 Case Study from World Bank dataset GDP and Edstat
 #Folder Structure:
 ###Codes
   
-  Case Study.Rproj
+    Case Study.Rproj
   
-  Case Study6.Rmd
+    Case Study6.Rmd
   
-  Case Study6.html
+    Case Study6.html
   
-  Case Study6.md
+    Case Study6.md
 
 ###Data
   
-  Edstat.csv
+    Edstat.csv
   
-  GDP.csv
+    GDP.csv
 
 ###Graphs:
   
-  unamed-chunk-11-1.png
+    unamed-chunk-11-1.png
