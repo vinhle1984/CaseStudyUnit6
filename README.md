@@ -33,7 +33,7 @@ loaded via a namespace (and not attached):
 
 #Folder Structure:
 
-###Codes
+###Analysis
   
     Case Study.Rproj
   
